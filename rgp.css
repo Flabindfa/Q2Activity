@@ -1,0 +1,15 @@
+/*this is an external css*/
+h1{
+	font-family: Tahoma;
+	color: darkcyan;
+}
+p{
+	color: white;
+}
+span{
+	text-decoration: underline;
+}
+
+body{
+	background-color:#212F3C ;
+}
