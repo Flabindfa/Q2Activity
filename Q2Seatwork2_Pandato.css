@@ -1,0 +1,20 @@
+Table{
+	border-color:blueviolet;
+	border-width: 5px;
+	border-style: dashed;
+	padding: 3px;
+}
+Body{
+	background: plum;
+}
+h1{
+	color: blueviolet;
+	Font font-family: cursive;
+}
+p{
+	font-family: cursive;
+	color: darkblue;
+}
+.image{
+	opacity: 1;
+}
