@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Date and Time</title>
+</head>
+<body>
+	<h1>Date and Time</h1>
+	<p>The current date and time is: <span id="datetime"></span></p>
+	<label>Enter temperature in Fahrenheit:</label>
+	<input type="text" id="fahrenheit">
+	<button onclick="convert()">Convert</button>
+	<p>Temperature in Celsius: <span id="celsius"></span></p>
+
+
+	<script>
+		var dt = new Date();
+		document.getElementById("datetime").innerHTML = dt.toLocaleString();
+            function convert() {
+			var fahrenheit = document.getElementById("fahrenheit").value;
+			var celsius = (fahrenheit - 32) * 5/9;
+			document.getElementById("celsius").innerHTML = celsius.toFixed(2);
+		}
+	</script>
+</body>
+</html>
